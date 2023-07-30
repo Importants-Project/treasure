@@ -1,0 +1,20 @@
+.project_side_bar_item {
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 24px;
+    padding: 24px;
+    .date {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 8px;
+      color: #6B7280;
+    }
+    .desc {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 28px;
+      color: #374151;
+    }
+  }

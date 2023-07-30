@@ -1,0 +1,143 @@
+.footer_bg {
+  min-height: 486px;
+  background: #1f2937;
+  padding: 50px 0;
+  .footer {
+    .left_side {
+      .logo {
+        margin-bottom: 38px;
+        width: 341px;
+        height: 84px;
+      }
+      .mobile_side {
+        display: none;
+      }
+      .copyright {
+        font-weight: 400;
+        font-size: 16px;
+        color: #9ca3af;
+        width: 240px;
+        margin-top: 32px;
+        span {
+          color: #145cf0;
+        }
+      }
+      .mobile_side {
+        display: none !important;
+        .copyright_mobile {
+          font-weight: 400;
+          font-size: 16px;
+          color: #9ca3af;
+          width: 240px;
+          margin-top: 32px;
+        }
+      }
+    }
+    .footer_menu {
+      ul {
+        li:first-child {
+          color: white;
+          margin-bottom: 32px;
+          font-weight: 700;
+          font-size: 18px;
+          cursor: auto;
+        }
+        li {
+          margin-bottom: 18px;
+          a {
+            color: #d1d5db;
+
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .go_top{
+      position: fixed;
+      bottom: 50px;
+      right: 20px;
+      cursor: pointer;
+      width: 70px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      border-radius: 50px;
+      align-items: center;
+      background: #145CF0;
+      text-align: center;
+      z-index: 200;
+      img{
+        width: 28px;
+      }
+    }
+  }
+}
+
+.social_size {
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
+  cursor: pointer;
+}
+
+@media (max-width: 361px) {
+  .footer {
+    .left_side {
+      .logo {
+        width: 288px !important;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .footer_bg {
+    .footer {
+      .left_side {
+        .mobile_side {
+          display: block !important;
+          color: white;
+          .mobile_side_items {
+            margin-bottom: 40px;
+            .mobile_side_ico {
+              width: 19px;
+              margin-right: 18px;
+            }
+            .mobile_side_detail {
+              span{
+                font-size: 16px;
+              line-height: 20px;
+              color: #9ca3af;
+              }
+            }
+          }
+        }
+        .copyright{
+          width: unset !important;
+          margin-top: 48px;
+          &::before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            top: 88%;
+            left: 0;
+            height: 2px;
+            background-color: rgba(163, 164, 167, 0.16);
+          }
+        }
+  
+        // .mobile_side{
+        //   display: block !important;
+        //   .copyright_mobile{
+        //     width: 100% !important;
+        //   }
+        // }
+      }
+      .footer_menu {
+        display: none;
+      }
+    }
+  }
+}

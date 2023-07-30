@@ -1,0 +1,59 @@
+.side_bar_item {
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 24px;
+    padding: 24px;
+  &:last-child{
+    margin-bottom: 20px;
+  }
+
+  &:first-child{
+    margin-top: 0px;
+  }
+    .head_text {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #1f2937;
+    }
+    .content {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 28px;
+      color: #4b5563;
+    }
+
+
+  .nuxt-link-active{
+
+    .head_text,
+    .content{
+     color: #fff;
+    }
+  }
+  }
+
+.nuxt-link-active{
+.side_bar_item{
+  background: #145CF0;
+
+
+}
+  .head_text,
+  .content{
+    color: #fff;
+  }
+}
+.activeSide_bar_item{
+  background: #145CF0 ;
+}
+
+
+  @media(max-width: 768px){
+    .side_bar_item{
+      margin-bottom: 24px;
+      display: none;
+    }
+  }
+

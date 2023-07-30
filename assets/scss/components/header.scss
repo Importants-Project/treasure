@@ -1,0 +1,268 @@
+// HEADER SIDE
+.header_side {
+  // HEADERLOGO
+  margin-top: 28px;
+  margin-bottom: 31px;
+
+  .header_logo {
+    max-width: 341px;
+    max-height: 84px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  // HEADERMENU
+  .header_menu {
+    ul {
+      display: flex;
+
+      .dropdown {
+        position: relative;
+
+        .dropdown_list {
+          display: block;
+          opacity: 0;
+          visibility: hidden;
+          margin-top: 10px;
+          z-index: 5;
+          width: 190px;
+          background: #ffffff;
+          box-shadow: 12px 8px 88px rgba(0, 0, 0, 0.12);
+          border-radius: 6px;
+          position: absolute;
+          padding: 4px 8px;
+          transition: 0.3s ease-in-out;
+
+          li {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 16px;
+            color: #1f2937;
+            white-space: nowrap;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+              background: #145CF0;
+              border-radius: 4px;
+              color: white;
+
+              a {
+                color: white !important;
+              }
+            }
+          }
+        }
+
+        &:hover {
+          .dropdown_list {
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+      }
+
+      li {
+        margin-right: 48px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        cursor: pointer;
+      }
+
+      li:last-child {
+        margin: 0;
+      }
+    }
+  }
+
+  .mobile_menu {
+    display: none;
+  }
+}
+
+
+//responsive
+
+@media (max-width: 1200px) {
+  .header_side {
+    .header_menu {
+      ul {
+        li {
+          font-size: 16px;
+          margin-right: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .header_side {
+    .header_menu {
+      margin-left: 20px;
+
+      ul {
+        li {
+          font-size: 16px;
+          margin-right: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 989px) {
+
+  .header_side {
+    .header_menu {
+      display: none;
+    }
+
+    .header_logo {
+      img {
+        width: 86%;
+      }
+    }
+
+    .mobile_menu {
+      display: block;
+
+      // .hamburger {
+      //   cursor: pointer;
+      // }
+      .custom_hamburger {
+        position: relative;
+        width: 26px;
+        height: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        cursor: pointer;
+
+
+        span {
+          width: 100%;
+          height: 2px;
+          background-color: black;
+          transition: .3s ease-in-out;
+          // &:nth-child(2) {
+          //   width: 16px;
+          //   transition: .3s ease-in-out;
+          // }
+        }
+
+        &.active {
+          z-index: 11;
+
+
+          span {
+            &:nth-child(2) {
+              opacity: 0;
+              transform: translateX(-8px);
+            }
+
+
+            &:first-child {
+              transform: rotate(45deg);
+              margin-top: 9px;
+            }
+
+            &:last-child {
+              transform: rotate(-45deg);
+              margin-bottom: 9px;
+            }
+          }
+        }
+      }
+
+      .mobile_list {
+        display: none !important;
+        position: absolute;
+        overflow: auto;
+        z-index: 10;
+        background-color: #fff;
+        max-height: 100%;
+        height: 100vh;
+        left: 0%;
+        width: 100%;
+
+
+
+        @media screen and (max-width: 900px) {
+          top: 120px;
+        }
+
+        @media screen and (min-width: 900px) {
+          top: 190px;
+        }
+
+        &.active {
+          display: block !important;
+        }
+
+
+        .subList{
+          padding: 0;
+        }
+
+        ul {
+          padding: 20px 30px;
+          position: relative;
+          overflow: scroll;
+          height: 80%;
+          li {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 16px 0;
+            white-space: nowrap;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            position: relative;
+
+            &.head_li {
+              position: relative;
+
+              font-weight: 700;
+              font-size: 20px;
+              width: 100%;
+
+ul{
+  display: none;
+
+  &.active{
+    display: block;
+  }
+}
+
+
+            }
+
+            .head_li-flex {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              width: 100%;
+
+              &_icon {
+                transform: rotate(180deg);
+              }
+            }
+
+
+
+
+            a {
+              color: #1f2937;
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

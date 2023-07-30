@@ -1,0 +1,109 @@
+.news_bread_crumb {
+  text-align: center;
+  margin: 56px 0;
+  background: #f3f4f6;
+  border-radius: 12px;
+  padding: 72px 0;
+  height: 224px;
+}
+
+.news_bread_crumb .head_text {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.news_bread_crumb .bread_crumb_text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.news_bread_crumb .bread_crumb_text a {
+  margin: 0 10px;
+  color: #6b7280 !important;
+}
+
+.news .news_items {
+  padding: 32px;
+  cursor: pointer;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.news .news_items:hover {
+  border: 1px solid #145CF0;
+}
+
+.news .news_items .news_date span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6b7280;
+}
+
+.news .news_items .news_text {
+  margin-top: 16px;
+}
+
+.news .news_items .news_text p {
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 28px;
+  word-break: break-all;
+  color: #374151;
+}
+
+.news .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 200px;
+  margin-top: 32px;
+}
+
+.news .pagination li {
+  margin-left: 8px;
+}
+
+.news .pagination li button {
+  padding: 12px 17px !important;
+  border: 1px solid #EAECF0 !important;
+  border-radius: 6px;
+}
+
+.news .pagination li span {
+  background: #ffffff;
+  border: 1px solid #eaecf0 !important;
+  padding: 12px 17px !important;
+  border-radius: 6px;
+  color: black !important;
+}
+
+.news .pagination li:nth-child(2) {
+  margin-left: 0;
+}
+
+.news .pagination li:first-child, .news .pagination li:last-child {
+  display: none;
+}
+
+.news .pagination li.page-item.active .page-link {
+  background: #eaecf0 !important;
+  border: 1px solid #eaecf0;
+  border-radius: 6px !important;
+  color: black !important;
+  outline: none !important;
+}
+
+.page-link {
+  color: black !important;
+}
+/*# sourceMappingURL=news.css.map */

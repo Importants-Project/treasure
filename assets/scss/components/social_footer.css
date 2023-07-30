@@ -1,0 +1,46 @@
+.social_footer {
+  height: 56px;
+  background: #f9fafb;
+  padding: 16px 24px;
+  border-radius: 8px;
+}
+
+.social_footer .left_side {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.social_footer .right_side .social_icon {
+  width: 78px;
+  height: 20px;
+  border-right: 1px solid #6b7280;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social_footer .right_side .social_icon:last-child {
+  border-right: 1px solid transparent;
+}
+
+.social_footer .right_side .social_icon .social_icon_img {
+  width: 18px;
+  height: 18px;
+}
+
+.social_footer .right_side .social_icon img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+/*# sourceMappingURL=social_footer.css.map */

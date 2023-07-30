@@ -1,0 +1,48 @@
+.bread_crumbs {
+  padding: 48px 56px;
+  background: #f3f4f6;
+  margin-top: 56px;
+  border-radius: 12px;
+}
+
+.bread_crumbs .bread_crumb {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.bread_crumbs .bread_crumb .crumb {
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.bread_crumbs .bread_crumb .crumb:last-child a p {
+  display: none;
+}
+
+.bread_crumbs .bread_crumb .crumb a {
+  position: relative;
+  color: #6b7280;
+}
+
+.bread_crumbs .bread_crumb .crumb:first-child {
+  margin-left: 0px;
+}
+
+.bread_crumbs .bread_crumb .crumb2 {
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.bread_crumbs .bread_crumb .crumb2 a {
+  position: relative;
+  color: #6b7280;
+}
+
+.bread_crumbs .head_text h1 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+}
+/*# sourceMappingURL=bread_crumbs.css.map */

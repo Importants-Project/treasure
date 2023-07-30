@@ -1,0 +1,43 @@
+.electronic_services {
+  background: #f3f4f6;
+  margin-top: 30px;
+  padding-bottom: 280px;
+}
+
+.electronic_services .electronic_services_item {
+  padding: 48px;
+  margin-top: 56px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.electronic_services .electronic_services_item .head_text {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #1f2937;
+}
+
+.electronic_services .electronic_services_item .content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4b5563;
+  margin: 24px 0;
+}
+
+.electronic_services .electronic_services_item .transition {
+  background: #145cf0;
+  border-radius: 8px;
+  border: none;
+  padding: 16px 24px;
+}
+
+.electronic_services .electronic_services_item .transition .transition_text {
+  padding-right: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+/*# sourceMappingURL=electronic_services.css.map */

@@ -1,0 +1,77 @@
+
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+@font-face {
+  font-family: "TTInterfaces-Medium";
+  src: local("TTInterfaces-Medium"),
+   url(@/assets/fonts/TTInterfaces-Medium.ttf) format("truetype");
+}
+body {
+  font-family: "TTInterfaces-Medium", sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+input[type="button"] {
+  outline: none;
+}
+button:focus {
+  outline: none !important;
+}
+a,
+a:hover,
+a:focus {
+  outline: none;
+  color: black;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+// a {
+//   // color: $grey;
+// }
+.nuxt-link-active {
+  color:  #145cf0 !important;
+}
+.nuxt-link-active:hover {
+ 
+    color: black;
+  
+  
+}
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+img[src=""],
+img:not([src]) {
+  opacity: 0;
+}
+
+.header_txt {
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+    color: #374151;
+    margin: 96px 0 56px 0;
+  }
+}

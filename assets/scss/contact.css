@@ -1,0 +1,67 @@
+.contact .contact_info .addres,
+.contact .contact_info .telephone,
+.contact .contact_info .email {
+  margin-bottom: 69px;
+}
+
+.contact .contact_info .addres:last-child,
+.contact .contact_info .telephone:last-child,
+.contact .contact_info .email:last-child {
+  margin-bottom: 0;
+}
+
+.contact .contact_info .addres .logo,
+.contact .contact_info .telephone .logo,
+.contact .contact_info .email .logo {
+  margin-right: 30px;
+  width: 60px;
+  height: 60px;
+}
+
+.contact .contact_info .addres .logo img,
+.contact .contact_info .telephone .logo img,
+.contact .contact_info .email .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact .contact_info .addres .items,
+.contact .contact_info .telephone .items,
+.contact .contact_info .email .items {
+  width: 260px;
+}
+
+.contact .contact_info .addres .title,
+.contact .contact_info .telephone .title,
+.contact .contact_info .email .title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.3px;
+  color: #111827;
+  margin-bottom: 22px;
+}
+
+.contact .contact_info .addres .subtitle,
+.contact .contact_info .telephone .subtitle,
+.contact .contact_info .email .subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #111827;
+  opacity: 0.8;
+}
+
+.contact .contact_map {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.contact .contact_map .gmnoprint {
+  display: none !important;
+}
+
+.contact .contact_map .gm-fullscreen-control {
+  display: none !important;
+}
+/*# sourceMappingURL=contact.css.map */

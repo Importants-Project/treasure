@@ -1,0 +1,118 @@
+.news_bread_crumb {
+  text-align: center;
+  margin: 56px 0;
+  background: #f3f4f6;
+  border-radius: 12px;
+  padding: 72px 0;
+  height: 224px;
+  .head_text {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .bread_crumb_text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+
+
+      a {
+        margin: 0 10px;
+        color: #6b7280 !important;
+      }
+
+  }
+}
+
+.news {
+  .news_items {
+    padding: 32px;
+    cursor: pointer;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    transition: .3s ease-in-out;
+    height: 100%;
+    &:hover{
+      border: 1px solid #145CF0;
+    }
+    .news_date {
+      span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #6b7280;
+      }
+    }
+    .news_text {
+      margin-top: 16px;
+      p {
+        font-weight: 500;
+        font-size: 18px;
+        font-style: normal;
+        line-height: 28px;
+        word-break: break-all;
+        color: #374151;
+      }
+    }
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    margin-top: 32px;
+
+    li {
+      margin-left: 8px;
+      button{
+        padding: 12px 17px !important;
+        border: 1px solid #EAECF0 !important;
+        border-radius: 6px;
+      }
+      span {
+        background: #ffffff;
+        border: 1px solid #eaecf0 !important;
+        padding: 12px 17px !important;
+        border-radius: 6px;
+        color: black !important;
+      }
+      &:nth-child(2) {
+        margin-left: 0;
+      }
+      &:first-child,
+      &:last-child {
+        display: none;
+      }
+      &.page-item.active .page-link {
+        background: #eaecf0 !important;
+        border: 1px solid #eaecf0;
+        border-radius: 6px !important;
+        color: black !important;
+        outline: none !important;
+      }
+    }
+  }
+}
+.page-link {
+  color: black !important;
+}
+
+
+@media (max-width:768px){
+  .news_bread_crumb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    margin: 38px 0 24px 0;
+    .head_text{
+      font-size: 24px;
+
+    }
+  }
+  .news {
+    .pagination{
+      margin-bottom: 90px;
+    }
+  }
+}

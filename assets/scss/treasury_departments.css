@@ -1,0 +1,106 @@
+.treasury_departments {
+  margin-top: 24px;
+  border-radius: 12px;
+  padding: 32px;
+  margin-bottom: 200px;
+}
+
+.treasury_departments .treasury_departments_map {
+  position: relative;
+}
+
+.treasury_departments .treasury_departments_map .gmnoprint {
+  display: none !important;
+}
+
+.treasury_departments .treasury_departments_map .gm-fullscreen-control {
+  display: none !important;
+}
+
+.treasury_departments .location_tab {
+  position: absolute;
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  width: 477px;
+  height: 532px;
+  overflow-y: scroll;
+  top: 24px;
+  left: 24px;
+}
+
+.treasury_departments .location_tab::-webkit-scrollbar {
+  width: 5px;
+}
+
+.treasury_departments .location_tab::-webkit-scrollbar-track {
+  background-color: #eaecf0;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.treasury_departments .location_tab::-webkit-scrollbar-thumb {
+  background-color: #d0d5dd;
+  border-left: 1px solid #d0d5dd;
+  border-right: 3px solid #d0d5dd;
+  border-radius: 10px;
+}
+
+.treasury_departments .location_tab .location_tab_item {
+  border: 1px solid #d1d5db;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  max-height: 84px;
+}
+
+.treasury_departments .location_tab .location_tab_item.active {
+  max-height: unset;
+}
+
+.treasury_departments .location_tab .location_tab_item.active .drop_icon img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.treasury_departments .location_tab .location_tab_item.active .location_tab_info {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  opacity: 1;
+}
+
+.treasury_departments .location_tab .location_tab_item .content .location_addres {
+  font-weight: 400;
+  font-size: 14px;
+  width: 290px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #4B5563;
+  opacity: 0.8;
+}
+
+.treasury_departments .location_tab .location_tab_item .location_tab_info {
+  padding: 18px 60px;
+  opacity: 0;
+}
+
+.treasury_departments .location_tab .location_tab_item:last-child {
+  margin-bottom: 0;
+}
+
+.treasury_departments .location_tab .location_tab_item .location_icon {
+  width: 40px;
+  height: 40px;
+}
+
+.treasury_departments .location_tab .location_tab_item .drop_icon {
+  width: 12px;
+  height: 6px;
+}
+
+.treasury_departments .location_tab .location_tab_item .drop_icon img {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+/*# sourceMappingURL=treasury_departments.css.map */

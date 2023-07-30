@@ -1,0 +1,37 @@
+.account_information {
+  background: #f3f4f6;
+  margin-top: 30px;
+  padding: 56px 0 280px 0;
+}
+
+.account_information .account_information_item {
+  padding: 48px;
+  margin-bottom: 24px;
+  min-height: 250px;
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.account_information .account_information_item .head_text {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #1f2937;
+}
+
+.account_information .account_information_item .content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4b5563;
+  margin-top: 24px;
+}
+
+.account_information .account_information_item:hover {
+  border: 1px solid #145cf0;
+}
+/*# sourceMappingURL=account_information.css.map */

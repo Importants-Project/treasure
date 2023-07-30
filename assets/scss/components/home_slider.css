@@ -1,0 +1,105 @@
+.home_slider {
+  margin-top: 43px;
+  max-height: 464px;
+}
+
+.home_slider .swiper-wrapper .swiper-slide {
+  padding: 0px 0px 110px 80px;
+  background: #f3f4f6;
+  border-radius: 12px;
+  max-width: 1224px;
+}
+
+.home_slider .swiper-wrapper .swiper-slide .home_slider_item .left_side {
+  width: 56%;
+  padding-top: 110px;
+}
+
+.home_slider .swiper-wrapper .swiper-slide .home_slider_item .left_side .head_text h1 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.home_slider .swiper-wrapper .swiper-slide .home_slider_item .left_side .content {
+  margin: 24px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #4b5563;
+}
+
+.home_slider .swiper-wrapper .swiper-slide .home_slider_item .left_side .details_btn button {
+  background: #145cf0;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid transparent;
+  color: white;
+}
+
+.home_slider .swiper-wrapper .swiper-slide .home_slider_item .right_side {
+  width: 44%;
+  padding-top: 50px;
+}
+
+.home_slider .swiper-wrapper .swiper-slide .home_slider_item .right_side .slide_img {
+  width: 400px;
+}
+
+.home_slider .swiper-wrapper .swiper-slide .home_slider_item .right_side .slide_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: none !important;
+     object-fit: none !important;
+}
+
+.home_slider .swiper-pagination {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+}
+
+.home_slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: #9ca3af;
+  border-radius: 8px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.home_slider .swiper-pagination .swiper-pagination-bullet-active {
+  width: 32px;
+  background: #145cf0;
+}
+
+@media (max-width: 992px) {
+  .home_slider h1 {
+    font-size: 24px !important;
+  }
+  .home_slider p {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-wrapper .left_side {
+    width: 100% !important;
+    padding: 30px  !important;
+  }
+  .swiper-wrapper .right_side {
+    display: none !important;
+  }
+  .swiper-slide {
+    padding: 0px 20px 30px 20px !important;
+  }
+  .swiper-pagination {
+    display: none;
+  }
+}
+/*# sourceMappingURL=home_slider.css.map */

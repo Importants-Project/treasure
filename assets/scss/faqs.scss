@@ -1,0 +1,40 @@
+.faqs {
+  .faq {
+    padding: 24px;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    // position: relative;
+    max-height: 100px;
+    &.active {
+      max-height: max-content;
+      .faqs_item{
+        .faq_ico{
+          
+          img{
+            transition: .3s ease-in-out;
+            transform: rotate(180deg);
+          }
+        }
+      }
+      .faqs_info {
+        opacity: 1;
+        transition: .3s ease-in-out;
+      }
+    }
+    .faqs_item {
+      cursor: pointer;
+      .title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #344054;
+      }
+    }
+    .faqs_info {
+      margin-top: 20px;
+      opacity: 0;
+      
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.useful_links .useful_links_items .useful_item {
+  background: #f3f4f6;
+  position: relative;
+  border-radius: 12px;
+  padding: 32px;
+  height: 400px;
+  max-width: 392px;
+}
+
+.useful_links .useful_links_items .useful_item .item_header {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #374151;
+  margin-bottom: 20px;
+  cursor: context-menu;
+}
+
+.useful_links .useful_links_items .useful_item .item_content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #6b7280;
+  cursor: context-menu;
+}
+
+.useful_links .useful_links_items .useful_item .more .more_text {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #4B5563;
+}
+
+.useful_links .useful_links_items .useful_item .more .item_img {
+  margin-top: 20px;
+}
+
+.useful_links .useful_links_items .useful_item .more .item_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: none !important;
+     object-fit: none !important;
+}
+/*# sourceMappingURL=useful_links.css.map */

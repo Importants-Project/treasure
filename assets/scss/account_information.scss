@@ -1,0 +1,74 @@
+.account_information {
+  background: #f3f4f6;
+  margin-top: 30px;
+  padding: 56px 0 280px 0;
+  .account_bread {
+    display: block;
+    .bread_crumbs{
+      margin: 0;
+      padding: 0 0 56px;
+    }
+
+    .head_text{
+      display: none;
+    }
+  }
+  .account_information_item {
+    padding: 48px;
+    margin-bottom: 24px;
+    //min-height: 250px;
+    min-height: 170px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    transition: 0.3s ease-in-out;
+
+    cursor: pointer;
+    .head_text {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 36px;
+      color: #1f2937;
+    }
+    .content {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 28px;
+      color: #4b5563;
+      margin-top: 24px;
+    }
+    &:hover {
+      border: 1px solid #145cf0;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .account_information {
+    background: white;
+    padding: unset;
+    margin-bottom: 120px;
+    .account_bread {
+      display: block;
+      .bread_crumbs{
+        margin: 0;
+        padding: 48px 56px;
+      }
+
+      .head_text{
+        display: block;
+      }
+    }
+    .account_information_item {
+      border: 1px solid #e5e7eb;
+      padding: 24px;
+      &:first-child {
+        margin-top: 24px;
+      }
+      .head_text {
+        font-size: 19px;
+        line-height: 28px;
+      }
+    }
+  }
+}
